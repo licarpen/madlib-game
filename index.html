@@ -5,14 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fun Madlib Game</title>
+    <script src = "app.js"></script>
 </head>
 <body>
     <header>
         <h1>Fun with Madlibs!</h1>
     </header>   
     <article>
-        <p>It was a <span id = "adjective1"></span> day in Portland. </p>
+        <p>It was a __<span id = "adjective1"></span> day in ___<span id = "place"></span>. I looked outside and grabbed a __<span id = "noun"></span>.  I ___<span id = "adverb"></span> ___<span id = "verb"></span> and was still late to work.</p>
     </article>
+
+    <label>adjective: <input id = "adj1-input"></label><br>
+    <label>place: <input id = "place_input"></label><br>
+    <label>noun: <input id = "noun_input"></label><br>
+    <label>adverb: <input id = "adverb_input"></label><br>
+    <label>verb: <input id = "verb_input"></label><br>
+    <button onclick = fillInBlank()>Fill it In!</button>
 
 </body>
 </html>
