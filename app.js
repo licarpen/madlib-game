@@ -1,7 +1,6 @@
 function fillInBlank(){
-    const adjectiveInput = document.getElementById('adj1-input');
+    const adjectiveInput = document.getElementById('adjectiveInput');
 
     const adjective = adjectiveInput.value;
-    adjectiveSpan.textContent = adjective;
-
+    adjective1.textContent = adjective;
 }
