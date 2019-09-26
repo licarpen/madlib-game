@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+
+    font-weight: bold;
+}
+
+header{
+    background-color: lightblue;
+    color: darkblue;
+    align-content: center;
+    padding: 20px;
+    border: solid 5px darkblue;
+    margin-bottom: 50px;
+}
+
+fieldset{
+    background-color: rgb(90, 218, 128);
+    color: darkblue;
+    align-content: center;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: solid 5px darkblue;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+label{
+    
+}
+
+.legend{
+    background-color: rgb(90, 218, 128);
+    border: solid 5px darkblue;
+}
+.instructions{
+    border: solid 5px darkblue;
+    background-color: rgb(59, 116, 167);
+    margin-bottom: 50px;
+    font-weight: normal;
+
+}
+
+.submit{
+    background-color: lightblue;
+    color: darkblue;
+    align-content: center;
+    padding: 20px;
+    border: solid 5px darkblue;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.button{
+    background-color: rgb(90, 218, 128);
+    border: solid 5px darkblue;
+    padding: 20px 50px;
+}
+
+#storyResults{
+    visibility: hidden;
+}

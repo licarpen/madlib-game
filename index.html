@@ -6,21 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fun Madlib Game</title>
     <script src = "app.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Fun with Madlibs!</h1>
-    </header>   
+        <h1>First Day of School Madness</h1>
+        <h2><em>Rid yourself of first-day jitters with this interactive story</em></h2>
+    </header> 
+
+    <article class = "instructions">
+        <h2>Instructions</h2>
+        <p>Fill in the blanks with the indicated types of words and let the hilarity ensue!  Be creative with your words.  The <strong>bizzare</strong> and <strong>unordinary</strong> are <em>essential</em> to ensure you have a fun and successful first day.</p>
+    </article>  
+    
     <article>
-        <p>It was a __<span id = "adjective1"></span> day in ___<span id = "place"></span>. I looked outside and grabbed a __<span id = "noun"></span>.  I ___<span id = "adverb"></span> ___<span id = "verb"></span> and was still late to work.</p>
+        <fieldset>
+            <legend class = "legend">Your Words</legend>
+            <label>Adjective: <br> 
+                <input id = "adj1Input"/></label> <br>
+            <label>Place:<br> 
+                <input id = "place"/></label> <br>    
+
+
+
+        </fieldset>
+
+        <!-- <table>
+            <tr>
+                <th>Type of Word</th>
+                <th>Your Word</th>
+            </tr>
+            <tr>
+                <td>Adjective:</td>
+                <td><input id = "adj1Input"/></td>
+            </tr>
+            <tr>
+                <td>Place:</td>
+                <td><input id = "placeInput"></td>
+                
+            </tr>
+        </table> -->
+    <div class = "submit">
+        <p>I'm ready for the first day of school.  Let's go!</p>
+        <button class = "button" onclick = fillInBlanks()><strong>CLICK ME</strong></button>
+    </div>
     </article>
 
-    <label>adjective: <input id = "adjectiveInput"></label><br>
-    <label>place: <input id = "place_input"></label><br>
-    <label>noun: <input id = "noun_input"></label><br>
-    <label>adverb: <input id = "adverb_input"></label><br>
-    <label>verb: <input id = "verb_input"></label><br>
-    <button onclick = fillInBlank()>Fill it In!</button>
+    <article>
+        <p id = "storyResults">
+            It was a <span id = "adj1"></span> day in <span id = "place"></span>. It also happened to be the first day of school!  Going back after summer vacation is always <span id = "adj2"></span> as a teacher and you are definitely feeling <span id = "feeling1"></span>.  This year, you have  <span id = "multipleHundred"></span> <span id = "animalPlural"></span> in your class.  You walk into the classroom and they are <span id = "verb"></span> and throwing <span id = "objectPlural"></span> around the room.  You even see <span id = "modernName"></span> sticking a <span id = "thing"></span> up his nose.  How are you ever going to calm them down and teach them <span id = "universitySubject"></span>?  You flicker the lights and the <span id = "animalPlural"></span> become quiet.  The <span id = "adj2"></span> one even looks you straight in the <span id = "bodyPart"></span> .  This is it; your time to shine.  Feeling <span id = "feeling2"></span>, you give it your best shot: <q><span id = "quote"></span>.</q>.  The class errupts in laughter and chaos ensues.  <q>That's it; I've had enough.  This can't possible be worth <span id = "number"></span> pennies per hour,</q> you sigh.  <q>I quit! I'd rather be a <span id = "occupation"></span> </q>
+        </p>
+    </article>
 
 </body>
 </html>
