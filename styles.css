@@ -30,8 +30,8 @@ fieldset{
     margin-bottom: 50px;
 }
 
-label{
-    
+span{
+    font-weight: bold;
 }
 
 .legend{
@@ -64,4 +64,5 @@ label{
 
 #storyResults{
     visibility: hidden;
+    font-weight: normal;
 }
