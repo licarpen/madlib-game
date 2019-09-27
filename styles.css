@@ -43,6 +43,7 @@ span{
     background-color: rgb(59, 116, 167);
     margin-bottom: 50px;
     font-weight: normal;
+    font-size: 24px;
 
 }
 
@@ -65,4 +66,5 @@ span{
 #storyResults{
     visibility: hidden;
     font-weight: normal;
+    font-size: 28px;
 }
