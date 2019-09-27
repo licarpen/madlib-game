@@ -30,7 +30,7 @@ function fillInBlanks(){
 
     const objectPluralInput = document.getElementById('objectPluralInput');
     const objectPluralOutput = objectPluralInput.value;
-    objectPluralOutput.textContent = objectPluralOutput;
+    objectPlural.textContent = objectPluralOutput;
 
     const feeling2Input = document.getElementById('feeling2Input');
     const feeling2Output = feeling2Input.value;
